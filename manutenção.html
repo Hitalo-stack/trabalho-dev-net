@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenção de Computadores</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Serviço de Manutenção de Computadores</h1>
+    </header>
+    <div id="banner">
+        <p>Seu computador em boas mãos!</p>
+    </div>
+    <main>
+        <section id="section">
+            <h2>Sobre Nós</h2>
+            <p>Somos especialistas em manutenção de computadores e instalação de programas. Nosso objetivo é garantir o bom funcionamento dos seus equipamentos, com segurança e rapidez.</p>
+        </section>
+        <section id="section">
+            <h2>Promoções e Novidades</h2>
+            <p>Confira nossos pacotes promocionais de manutenção preventiva e instalação de softwares essenciais!</p>
+        </section>
+    </main>
+    <footer>
+        <p>Siga-nos nas redes sociais</p>
+        <p>Instagram: Manutenção_De_Computadores | Facebook: Manutenção_De_Computadores</p>
+    </footer>
+    <main>
+        <section id="section">
+            <h2>Nossos Serviços</h2>
+            <div id="services-list">
+                <div id="service-item">
+                    <h3>Manutenção Preventiva</h3>
+                    <p>Realizamos limpeza e ajustes no sistema para melhorar o desempenho do seu computador.</p>
+                    <p>Preço: R$150,00</p>
+                </div>
+                <div id="service-item">
+                    <h3>Formatação e Instalação de Sistema Operacional</h3>
+                    <p>Formatação completa e instalação do sistema operacional desejado.</p>
+                    <p>Preço: R$200,00</p>
+                </div>
+                <div id="service-item">
+                    <h3>Instalação de Programas</h3>
+                    <p>Instalação de pacotes de software essenciais, como pacotes Office e antivírus.</p>
+                    <p>Preço: R$100,00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <main>
+        <section id="section">
+            <h2>Cadastre-se</h2>
+            <form id="contactForm" action="/enviar" method="post">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefone">Telefone</label>
+                <input type="number" id="telefone" name="telefone">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit" id="botao">Enviar</button>
+            </form>
+
+            <h2>Contato</h2>
+                <h3 id="contatos">Telefone:</h3>
+                <p>(11) 9999-9999</p>
+                <h3 id="contatos">E-Mail:</h3>
+                <p>manutenção_de_computadores@gmail.com</p>
+            <div id="section">
+                <h3>Localização</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2174.618638381005!2d-46.64356258482651!3d-23.559174374300003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b03d9254c3%3A0xac98864c345f1b95!2sManuten%C3%A7%C3%A3o%20De%20Computadores%20E%20Notebooks!5e0!3m2!1spt-BR!2sbr!4v1731030796713!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
