@@ -1,0 +1,60 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+header, footer {
+        background-color: #4a9af5;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+main {
+        padding: 32px;
+    }
+#banner {
+        background: url("https://www.terraempresas.com.br/blog/wp-content/uploads/2019/11/terra-empresas-manutencao-de-computadores-capa1.jpg") no-repeat center; 
+        background-size: cover; 
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 20px;
+        font-family: Trattatello, fantasy;
+    }
+#section {
+        margin: 2px;
+        border: 1px;
+        border-top-style: solid;
+    }
+#services-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+#service-item {
+        width: 30%;
+        background-color: whitesmoke;
+        padding: 16px;
+        border-radius: 5px;
+    }
+form { 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 400px;
+        margin: auto; 
+    }
+form input, form textarea {
+        font-size: 16px; 
+    }
+#botao {
+        height: 50px;
+        background-color: #4a9af5;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+#botao:focus{
+    background-color: #3d7ec7;
+}
